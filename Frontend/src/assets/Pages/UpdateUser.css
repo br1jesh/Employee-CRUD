@@ -1,0 +1,50 @@
+.MainContainer {
+    height: 500px;
+    width: 400px;
+    margin: 50px auto;
+    background: #bb9d66;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center the items horizontally */
+    justify-content: flex-start; /* Align items at the top */
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(94, 84, 84, 0.1);
+  }
+  
+  .heading {
+    margin-top: 20px; /* Space from the top of the container */
+    margin-bottom: 20px; /* Space below the heading */
+    color: black;
+    font-size: 24px;
+    text-align: center; /* Center the heading horizontally */
+  }
+  
+  .form-label {
+    font-weight: bold;
+    width: 100%; /* Ensure label stretches across the full width */
+    text-align: left; /* Align label text to the left */
+    margin-bottom: 5px; /* Space between the label and input */
+  }
+  
+  .form-control {
+    width: 320px; /* Make sure the input takes up the full width */
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+  }
+  
+  .btn {
+    display: block;
+    margin: 20px auto 0; /* top auto bottom */
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    background-color: #93bfa2;
+  }
+  
